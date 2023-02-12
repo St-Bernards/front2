@@ -1,10 +1,36 @@
 .App {
-  text-align: center;
+  /* Landing Page */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  position: relative;
+  width: 1440px;
+  height: 699px;
+
+  background: #ffffff;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  /* St Bernards Logo 3 2 */
+
+  width: 76px;
+  height: 73px;
+
+  background: url(logo.png);
+  border-radius: 35px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,19 +39,245 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App-title {
+  /* Frame 2 */
+
+  /* Auto layout */
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+
+  width: 260px;
+  height: 75px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.textTitle {
+  /* St Bernard */
+
+  width: 260px;
+  height: 75px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: 0.03em;
+
+  /* Black */
+
+  color: #121212;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.App-header {
+  /* Frame 12 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 31px 10px 33px;
+  gap: 40px;
+
+  width: 1440px;
+  height: 121px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.bodyFrame {
+  /* Frame 14 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 1330px;
+  height: 210px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.bodyText {
+  /* Empowering Patients with Secure and Decentralized Health Information Access */
+
+  position: absolute;
+  width: 719px;
+  height: 210px;
+  left: 0px;
+  top: 0px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 70px;
+  /* or 130% */
+
+  letter-spacing: 0.02em;
+
+  /* Black */
+
+  color: #121212;
+}
+
+.bodyText2 {
+  /* Frame 16 */
+
+  position: absolute;
+  width: 601px;
+  height: 60px;
+  left: 101px;
+  top: 385px;
+
+  background: #ffffff;
+}
+
+.bodyText2Detail {
+  /* Health carely is a new way to get health insurance quotes. We offer tools similar to those provided by insurance companies for free and prices are based on donations and not restrictive health plan networks. */
+
+  position: absolute;
+  width: 601px;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* Grey */
+
+  color: #696969;
+}
+
+.buttonSet {
+  /* Frame 18 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 41px 79px;
+  gap: 149px;
+
+  position: absolute;
+  width: 563px;
+  height: 134px;
+  left: 44px;
+  top: 451px;
+
+  background: #ffffff;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.Button {
+  /* Frame 3 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 22px;
+  gap: 10px;
+
+  width: 197px;
+  height: 44px;
+
+  /* Primary */
+
+  background: #4d77ff;
+  border-radius: 10px;
+}
+
+.textButton {
+  /* Connect to MetaMask */
+
+  width: 153px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navbar {
+  /* Navbar */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 110px;
+
+  width: 1228px;
+  height: 91px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 @keyframes App-logo-spin {
