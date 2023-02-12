@@ -1,0 +1,448 @@
+.App {
+  /* Init doc */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  position: relative;
+  width: 1440px;
+  height: 718px;
+
+  background: #ffffff;
+}
+
+.Header {
+  /* Frame 12 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 40px;
+
+  width: 1440px;
+  height: 121px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SmallHeader {
+  /* Navbar */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 110px;
+
+  width: 1228px;
+  height: 91px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Logo {
+  /* St Bernards Logo 3 2 */
+
+  width: 76px;
+  height: 73px;
+
+  background: url(../logo.png);
+  border-radius: 35px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.TitleFrame {
+  /* Frame 2 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 18px;
+
+  width: 180px;
+  height: 75px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Title {
+  width: 260px;
+  height: 75px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 66px;
+  letter-spacing: 0.03em;
+
+  /* Black */
+
+  color: #121212;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.WalletConnectButton {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 22px;
+  gap: 10px;
+
+  width: 194px;
+  height: 44px;
+
+  /* Primary */
+
+  background: #4d77ff;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.WalletConnectText {
+  /* Connect to MetaMask */
+
+  width: 150px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  /* identical to box height, or 100% */
+
+  letter-spacing: 0.03em;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.Body {
+  /* Frame 28 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 41px;
+  gap: 50px;
+
+  width: 1440px;
+  height: 597px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.MedicalCardFrame {
+  /* Frame 26 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 701px;
+  height: 556px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.InfoDisplay {
+  /* Rectangle 14 */
+
+  width: 701px;
+  height: 473px;
+
+  background: rgba(77, 119, 255, 0.17);
+  border-radius: 68px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.MedicalCardTextFrame {
+  /* Frame 27 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 43px;
+  gap: 8px;
+
+  width: 246px;
+  height: 83px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.MedicalCardText {
+  /* Medical Card */
+
+  width: 160px;
+  height: 33px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: rgba(77, 119, 255, 0.5);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SearchBarFrame {
+  /* Frame 30 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 33px;
+  gap: 10px;
+
+  width: 483px;
+  height: 496px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.SmallerSearchBarFrame {
+  /* Frame 15 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 5px;
+  gap: 6px;
+
+  width: 417px;
+  height: 40px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SearchPatientButton {
+  /* Frame 3 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 22px;
+  gap: 10px;
+
+  width: 156px;
+  height: 32px;
+
+  /* Primary */
+
+  background: #4d77ff;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SearchPatientButtonText {
+  /* Connect to MetaMask */
+
+  width: 108px;
+  height: 20px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  letter-spacing: 0.03em;
+
+  /* White */
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.SearchPatient {
+  /* Frame 8 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 22px;
+  gap: 10px;
+
+  width: 203px;
+  height: 32px;
+
+  background: rgba(77, 119, 255, 0.17);
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.Arrow {
+  /* Frame 9 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 22px;
+  gap: 10px;
+
+  width: 36px;
+  height: 32px;
+
+  /* Primary */
+
+  background: #4d77ff;
+  border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.ArrowLines {
+  /* Image */
+
+  width: 23px;
+  height: 18.5px;
+
+  background: url(../Image.png);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

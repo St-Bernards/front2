@@ -1,5 +1,5 @@
-.App {
-  /* Landing Page */
+.LandingPage {
+  /* Frame 24 */
 
   /* Auto layout */
 
@@ -8,16 +8,15 @@
   justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 10px;
 
   position: relative;
   width: 1440px;
-  height: 699px;
+  height: 910px;
 
   background: #ffffff;
 }
 
-.App-logo {
+.AppLogo {
   /* St Bernards Logo 3 2 */
 
   width: 76px;
@@ -34,24 +33,23 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .AppLogo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-title {
+.AppTitle {
   /* Frame 2 */
 
   /* Auto layout */
 
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   padding: 0px;
-  gap: 40px;
+  gap: 18px;
 
-  width: 260px;
+  width: 578px;
   height: 75px;
 
   /* Inside auto layout */
@@ -61,7 +59,7 @@
   flex-grow: 0;
 }
 
-.textTitle {
+.TextTitle {
   /* St Bernard */
 
   width: 260px;
@@ -84,7 +82,22 @@
   flex-grow: 0;
 }
 
-.App-header {
+.TextImage {
+  /* Image */
+
+  width: 300px;
+  height: 50px;
+
+  background: url(avax.png);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.TitleHeader {
   /* Frame 12 */
 
   /* Auto layout */
@@ -108,19 +121,20 @@
   flex-grow: 0;
 }
 
-.bodyFrame {
+.BodyForText {
   /* Frame 14 */
 
   /* Auto layout */
 
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-items: center;
-  padding: 0px;
-  gap: 10px;
+  padding: 0px 630px 0px 0px;
+  gap: 20px;
 
-  width: 1330px;
-  height: 210px;
+  width: 1440px;
+  height: 220px;
 
   background: #ffffff;
 
@@ -131,14 +145,11 @@
   flex-grow: 0;
 }
 
-.bodyText {
+.TextForBodyBlack {
   /* Empowering Patients with Secure and Decentralized Health Information Access */
 
-  position: absolute;
   width: 719px;
   height: 210px;
-  left: 0px;
-  top: 0px;
 
   font-style: normal;
   font-weight: 700;
@@ -151,30 +162,44 @@
   /* Black */
 
   color: #121212;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.bodyText2 {
+.BodyForText2 {
   /* Frame 16 */
 
-  position: absolute;
-  width: 601px;
-  height: 60px;
-  left: 101px;
-  top: 385px;
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 724px 0px 0px;
+  gap: 50px;
+
+  width: 1440px;
+  height: 97px;
 
   background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }
 
-.bodyText2Detail {
+.TextForBody2 {
   /* Health carely is a new way to get health insurance quotes. We offer tools similar to those provided by insurance companies for free and prices are based on donations and not restrictive health plan networks. */
 
-  position: absolute;
-  width: 601px;
+  width: 611px;
   height: 60px;
-  left: 0px;
-  top: 0px;
 
-  font-family: "Manrope";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -186,26 +211,36 @@
   /* Grey */
 
   color: #696969;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-.buttonSet {
+.ButtonSet {
   /* Frame 18 */
 
   /* Auto layout */
 
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  padding: 41px 79px;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 739px 4px 0px;
   gap: 149px;
 
-  position: absolute;
-  width: 563px;
-  height: 134px;
-  left: 44px;
-  top: 451px;
+  width: 1440px;
+  height: 58px;
 
   background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
 }
 
 .App-link {
@@ -224,26 +259,32 @@
   padding: 12px 22px;
   gap: 10px;
 
-  width: 197px;
+  width: 194px;
   height: 44px;
 
   /* Primary */
 
   background: #4d77ff;
   border-radius: 10px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
-.textButton {
+.TextButton {
   /* Connect to MetaMask */
 
-  width: 153px;
+  width: 150px;
   height: 20px;
 
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 20px;
-  /* identical to box height, or 143% */
+  /* identical to box height, or 100% */
 
   letter-spacing: 0.03em;
 
@@ -280,11 +321,41 @@
   flex-grow: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.BodyForElypse {
+  /* Frame 22 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0px 0px 0px 391px;
+  gap: 10px;
+
+  width: 1440px;
+  height: 402px;
+
+  background: #ffffff;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+
+.Elypse {
+  /* Image */
+
+  width: 1047.5px;
+  height: 402px;
+
+  background: url(index.png);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
